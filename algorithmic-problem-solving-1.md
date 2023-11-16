@@ -23,3 +23,18 @@ Constraints:
 1 <= nums.length <= 3 * 104
 -3 * 104 <= nums[i] <= 3 * 104
 Each element in the array appears twice except for one element which appears only once.
+
+SEAT Method
+
+Summarize:
+
+have an array of ints in where each element appears twice except for one that only appears once. identify that unique element with linear time & constant extra space.
+    * linear time complexity - the running time of an algorithm increases linearly with the size of the input.
+    * constant extra space - the space(memory) you have taken to solve the problem doesn't depend on the input variable
+max array length is 312, min array value is -312 & max array value is 312.
+
+Examples/Edge cases:
+
+if array length is 1?
+if nums[i] = 0?
+
