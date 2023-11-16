@@ -8,4 +8,5 @@ function uniqueNumber(nums) {
   
     return result;
   }
-  
+ 
+export default uniqueNumber;
