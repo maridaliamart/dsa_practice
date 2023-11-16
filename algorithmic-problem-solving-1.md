@@ -38,3 +38,19 @@ Examples/Edge cases:
 if array length is 1?
 if nums[i] = 0?
 
+
+Analyze:
+Want to find a way to compare two numbers without having to record/use memory -- google search resulted in XOR operator.
+
+"The XOR (exclusive OR) operator is a bitwise operation. It takes two binary numbers as input and performs the following operation on each pair of corresponding bits:
+
+If the bits are different, the result is 1.
+If the bits are the same, the result is 0."
+
+Plan/theory:
+result = 0. 
+while iterating through the array in a loop, xor is used on each element with result and is then set as the new value for result.
+this means that the first answer will always reflect the number that it was used on (xor 'a' with zero will always equal 'a'). the next number will be xor with the new value of result. if it is the same number, the new result value is 0. if different, result is 1. 
+it effectively cancels out duplicate elements and identifies the unique value since xor with a different value will equal itself. 
+final value of result should be unique element.
+
