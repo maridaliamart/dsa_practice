@@ -1,0 +1,16 @@
+{
+  "name": "dsa_practice",
+  "version": "1.0.0",
+  "description": "This is a problem set for our Data Structures & Algorithms practice",
+  "main": "aps1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

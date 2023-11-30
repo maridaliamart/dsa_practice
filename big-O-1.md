@@ -19,3 +19,6 @@ Constraints:
 2 <= nums.length <= 104
 -109 <= nums[i] <= 109
 -109 <= target <= 109
+
+//situation: array nums and integer target. need to find 2 indices that will add up to target 
+examples/edge cases: empty array, if all elements are the same, and if no combination adds up to the target
