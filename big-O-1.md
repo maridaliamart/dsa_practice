@@ -22,3 +22,4 @@ Constraints:
 
 //situation: array nums and integer target. need to find 2 indices that will add up to target 
 examples/edge cases: empty array, if all elements are the same, and if no combination adds up to the target
+//analyze: if using the two pointer method, i can add the two elements and compare to the target. if sum is less than target, i++. else j--.
