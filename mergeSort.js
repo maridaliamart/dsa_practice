@@ -1,3 +1,4 @@
+let nums = [5,1,1,2,0,0]
 
 function mergeSort(nums){
     if(nums.length < 2){
